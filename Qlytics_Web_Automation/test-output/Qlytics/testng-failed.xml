@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Qlytics]" parallel="tests" data-provider-thread-count="1">
+  <test thread-count="3" name="LoginUiTest3(failed)" parallel="tests">
+    <classes>
+      <class name="qlytics.Regression.LoginUiTest">
+        <methods>
+          <include name="LoginPageUi"/>
+          <include name="aaasetUp"/>
+          <include name="checkAlerts"/>
+          <include name="setUp"/>
+          <include name="quitBrowser"/>
+          <include name="nameBefore"/>
+        </methods>
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </classes>
+  </test> <!-- LoginUiTest3(failed) -->
+  <test thread-count="3" name="LoginUiTest(failed)" parallel="tests">
+    <classes>
+      <class name="qlytics.Regression.LoginUiTest">
+        <methods>
+          <include name="LoginPageUi"/>
+          <include name="aaasetUp"/>
+          <include name="checkAlerts"/>
+          <include name="setUp"/>
+          <include name="quitBrowser"/>
+          <include name="nameBefore"/>
+        </methods>
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </classes>
+  </test> <!-- LoginUiTest(failed) -->
+</suite> <!-- Failed suite [Qlytics] -->

@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="196" failures="6" name="TestSuite" time="9.255" errors="0" skipped="190">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sanjayj/Documents/NickFolder/Qlytics_Automation/Qlytics_Web_Automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sanjayj/Documents/NickFolder/Qlytics_Automation/Qlytics_Web_Automation"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/w2/ftsr98xn3tv68y0f8dc2v1vc0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sanjayj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.1/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/sanjayj"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sanjayj"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="/Users/sanjayj/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="qlytics.Regression.LoginFunctionalityTest" name="registration" time="1.793">
+    <failure message="session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.20 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;Apples-MacBook.local&apos;, ip: &apos;fe80:0:0:0:148f:f367:5286:ee62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.20 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;Apples-MacBook.local&apos;, ip: &apos;fe80:0:0:0:148f:f367:5286:ee62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:171)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)
+	at qlytics.Lib.AppLibrary.getDriverInstance(AppLibrary.java:333)
+	at qlytics.Regression.LoginFunctionalityTest.registration(LoginFunctionalityTest.java:44)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2c13da15
+TestName: LoginFunctionalityTest
+SignUpFunctionalityTestStarted
+08/23 16:08:30
+neoTest_08_23_16_08_30_622
+Is Browser Stack execution: null : false
+Is Remote execution: null : false
+</system-out>
+    <system-err>Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 12819
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+</system-err>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginFunctionalityTest" name="checkAlerts" time="1.796">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at qlytics.Lib.TestBase.checkAlerts(TestBase.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Failed fetching URL and screenshot due to error:null
+</system-out>
+    <system-err>java.lang.NullPointerException
+	at qlytics.Lib.TestBase.getScreenshot(TestBase.java:65)
+	at qlytics.Lib.TestBase.checkAlerts(TestBase.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFunctionalityTest" name="aaasetUp" time="1.796">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFunctionalityTest" name="setUp" time="1.796">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFunctionalityTest" name="nameBefore" time="1.796">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFunctionalityTest" name="signUpFunctionalityTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFunctionalityTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFunctionalityTest" name="quitBrowser" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at qlytics.Lib.TestBase.quitBrowser(TestBase.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginUiTest" name="aaasetUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginUiTest" name="setUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginUiTest" name="nameBefore" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginUiTest" name="LoginPageUi" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginUiTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginUiTest" name="quitBrowser" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at qlytics.Lib.TestBase.quitBrowser(TestBase.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="aaasetUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="setUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="nameBefore" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="testSignUpAbsentValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="testSignUpAbsentValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="testSignUpAbsentValidation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="testSignUpAbsentValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="testSignUpAbsentValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="testSignUpAbsentValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="testSignUpAbsentValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="testSignUpAbsentValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="testSignUpAbsentValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="testSignUpAbsentValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpAbsentValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpPageUiTest" name="aaasetUp" time="0">
+    <skipped/>
+    <system-out>Closing the Browser Successfully
+Closing the Browser Successfully
+</system-out>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpPageUiTest" name="setUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpPageUiTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpPageUiTest" name="SignUpPageUi" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpPageUiTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpPageUiTest" name="quitBrowser" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at qlytics.Lib.TestBase.quitBrowser(TestBase.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="aaasetUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="setUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0.047">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="testLoginValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginValidationTest" name="quitBrowser" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at qlytics.Regression.LoginValidationTest.quitBrowser(LoginValidationTest.java:85)
+</failure>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="aaasetUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="setUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.046">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="nameBefore" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="testSignupFullValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.SignUpFullValidationTest" name="checkAlerts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="qlytics.Regression.LoginFunctionalityTest" name="loginFunctionalityTest" time="0.003">
+    <skipped/>
+    <system-out>Closing the Browser Successfully
+Closing the Browser Successfully
+</system-out>
+  </testcase>
+</testsuite>

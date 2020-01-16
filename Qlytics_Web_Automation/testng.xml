@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Qlytics" parallel="tests" thread-count="10"
+	data-provider-thread-count="1">
+	<test name="LoginUiTest">
+		<classes>
+			<class name="qlytics.Regression.LoginUiTest" />
+		</classes>
+	</test>
+	<test name="LoginUiTest2">
+		<classes>
+			<class name="qlytics.Regression.LoginUiTest" />
+		</classes>
+	</test>
+	
+	<test name="LoginUiTest3">
+		<classes>
+			<class name="qlytics.Regression.LoginUiTest" />
+		</classes>
+	</test>
+	<test name="LoginUiTest4">
+		<classes>
+			<class name="qlytics.Regression.LoginUiTest" />
+		</classes>
+	</test>
+	<test name="LoginUiTest5">
+		<classes>
+			<class name="qlytics.Regression.LoginUiTest" />
+		</classes>
+	</test>
+	<test name="LoginUiTest6">
+		<classes>
+			<class name="qlytics.Regression.LoginUiTest" />
+		</classes>
+	</test>
+	<test name="LoginUiTest7">
+		<classes>
+			<class name="qlytics.Regression.LoginUiTest" />
+		</classes>
+	</test>
+	<test name="LoginUiTest8">
+		<classes>
+			<class name="qlytics.Regression.LoginUiTest" />
+		</classes>
+	</test>
+</suite>

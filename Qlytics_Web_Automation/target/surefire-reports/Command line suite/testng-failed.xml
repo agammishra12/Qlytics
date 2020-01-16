@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="qlytics.Regression.SignUpAbsentValidationTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="testSignUpAbsentValidation"/>
+        </methods>
+      </class> <!-- qlytics.Regression.SignUpAbsentValidationTest -->
+      <class name="qlytics.Regression.SignUpFullValidationTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="testSignupFullValidation"/>
+        </methods>
+      </class> <!-- qlytics.Regression.SignUpFullValidationTest -->
+      <class name="qlytics.Regression.SignUpPageUiTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="SignUpPageUi"/>
+        </methods>
+      </class> <!-- qlytics.Regression.SignUpPageUiTest -->
+      <class name="qlytics.Regression.LoginValidationTest">
+        <methods>
+          <include name="testLoginValidation"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- qlytics.Regression.LoginValidationTest -->
+      <class name="qlytics.Regression.LoginFunctionalityTest">
+        <methods>
+          <include name="loginFunctionalityTest"/>
+          <include name="registration"/>
+          <include name="aaasetUp"/>
+          <include name="checkAlerts"/>
+          <include name="quitBrowser"/>
+          <include name="setUp"/>
+          <include name="nameBefore"/>
+        </methods>
+      </class> <!-- qlytics.Regression.LoginFunctionalityTest -->
+      <class name="qlytics.Regression.SignUpFunctionalityTest">
+        <methods>
+          <include name="signUpFunctionalityTest"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- qlytics.Regression.SignUpFunctionalityTest -->
+      <class name="qlytics.Regression.LoginUiTest">
+        <methods>
+          <include name="LoginPageUi"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

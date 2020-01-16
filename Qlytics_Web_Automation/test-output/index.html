@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Qlytics">
+              <span class="suite-name border-passed">Qlytics</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Qlytics">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Qlytics">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Qlytics">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Qlytics">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Qlytics">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Qlytics">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Qlytics">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Qlytics" class="hide-methods passed suite-Qlytics"> (hide)</a> <!-- hide-methods passed suite-Qlytics -->
+                      <a href="#" panel-name="suite-Qlytics" class="show-methods passed suite-Qlytics"> (show)</a> <!-- show-methods passed suite-Qlytics -->
+                    </span>
+                    <div class="method-list-content passed suite-Qlytics">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Qlytics" title="qlytics.Regression.LoginUiTest" hash-for-method="LoginPageUi">LoginPageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Qlytics" title="qlytics.Regression.LoginUiTest" hash-for-method="LoginPageUi">LoginPageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Qlytics" title="qlytics.Regression.LoginUiTest" hash-for-method="LoginPageUi">LoginPageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Qlytics" title="qlytics.Regression.LoginUiTest" hash-for-method="LoginPageUi">LoginPageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Qlytics" title="qlytics.Regression.LoginUiTest" hash-for-method="LoginPageUi">LoginPageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Qlytics" title="qlytics.Regression.LoginUiTest" hash-for-method="LoginPageUi">LoginPageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Qlytics" title="qlytics.Regression.LoginUiTest" hash-for-method="LoginPageUi">LoginPageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Qlytics" title="qlytics.Regression.LoginUiTest" hash-for-method="LoginPageUi">LoginPageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Qlytics -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Qlytics" class="panel Qlytics">
+          <div class="suite-Qlytics-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qlytics.Regression.LoginUiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUi">
+                  </a> <!-- LoginPageUi -->
+                  <span class="method-name">LoginPageUi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUi">
+                  </a> <!-- LoginPageUi -->
+                  <span class="method-name">LoginPageUi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUi">
+                  </a> <!-- LoginPageUi -->
+                  <span class="method-name">LoginPageUi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUi">
+                  </a> <!-- LoginPageUi -->
+                  <span class="method-name">LoginPageUi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUi">
+                  </a> <!-- LoginPageUi -->
+                  <span class="method-name">LoginPageUi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUi">
+                  </a> <!-- LoginPageUi -->
+                  <span class="method-name">LoginPageUi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUi">
+                  </a> <!-- LoginPageUi -->
+                  <span class="method-name">LoginPageUi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUi">
+                  </a> <!-- LoginPageUi -->
+                  <span class="method-name">LoginPageUi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Qlytics-class-passed -->
+        </div> <!-- panel Qlytics -->
+        <div panel-name="test-xml-Qlytics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/Apple/Documents/NickFolder/Qlytics_Automation/Qlytics_Web_Automation/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Qlytics&quot; parallel=&quot;tests&quot; data-provider-thread-count=&quot;1&quot;&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;LoginUiTest&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginUiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginUiTest --&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;LoginUiTest2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginUiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginUiTest2 --&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;LoginUiTest3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginUiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginUiTest3 --&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;LoginUiTest4&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginUiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginUiTest4 --&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;LoginUiTest5&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginUiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginUiTest5 --&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;LoginUiTest6&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginUiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginUiTest6 --&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;LoginUiTest7&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginUiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginUiTest7 --&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;LoginUiTest8&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginUiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginUiTest8 --&gt;
+&lt;/suite&gt; &lt;!-- Qlytics --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Qlytics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Qlytics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginUiTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginUiTest2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginUiTest3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginUiTest4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginUiTest5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginUiTest6 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginUiTest7 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginUiTest8 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Qlytics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Qlytics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Qlytics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Qlytics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Qlytics');
+function tableData_Qlytics() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginPageUi')
+data.setCell(0, 2, 'qlytics.Regression.LoginUiTest')
+data.setCell(0, 3, 15148);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginPageUi')
+data.setCell(1, 2, 'qlytics.Regression.LoginUiTest')
+data.setCell(1, 3, 13719);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginPageUi')
+data.setCell(2, 2, 'qlytics.Regression.LoginUiTest')
+data.setCell(2, 3, 13248);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginPageUi')
+data.setCell(3, 2, 'qlytics.Regression.LoginUiTest')
+data.setCell(3, 3, 9573);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginPageUi')
+data.setCell(4, 2, 'qlytics.Regression.LoginUiTest')
+data.setCell(4, 3, 9480);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginPageUi')
+data.setCell(5, 2, 'qlytics.Regression.LoginUiTest')
+data.setCell(5, 3, 9392);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginPageUi')
+data.setCell(6, 2, 'qlytics.Regression.LoginUiTest')
+data.setCell(6, 3, 6684);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LoginPageUi')
+data.setCell(7, 2, 'qlytics.Regression.LoginUiTest')
+data.setCell(7, 3, 6499);
+window.suiteTableData['Qlytics']= { tableData: data, tableDiv: 'times-div-Qlytics'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Qlytics">
+              </div> <!-- times-div-Qlytics -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Qlytics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Qlytics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Qlytics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Qlytics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">qlytics.Regression.LoginUiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">aaasetUp(org.testng.TestRunner@33cb5951)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">aaasetUp(org.testng.TestRunner@11c20519)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">aaasetUp(org.testng.TestRunner@701fc37a)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">aaasetUp(org.testng.TestRunner@365c30cc)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">aaasetUp(org.testng.TestRunner@70beb599)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">aaasetUp(org.testng.TestRunner@4e41089d)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">aaasetUp(org.testng.TestRunner@32a068d1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">aaasetUp(org.testng.TestRunner@4148db48)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">nameBefore(public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception)</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">nameBefore(public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception)</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">nameBefore(public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception)</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUi</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUi</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">nameBefore(public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception)</span>
+                <span class="method-start">179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUi</span>
+                <span class="method-start">179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUi</span>
+                <span class="method-start">180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">nameBefore(public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception)</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUi</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">nameBefore(public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception)</span>
+                <span class="method-start">183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUi</span>
+                <span class="method-start">184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">nameBefore(public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception)</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUi</span>
+                <span class="method-start">186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">nameBefore(public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception)</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUi</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkAlerts([TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics...)</span>
+                <span class="method-start">6680 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">checkAlerts([TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics...)</span>
+                <span class="method-start">6864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">6941 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">6989 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">checkAlerts([TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics...)</span>
+                <span class="method-start">9583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">checkAlerts([TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics...)</span>
+                <span class="method-start">9664 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">checkAlerts([TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics...)</span>
+                <span class="method-start">9760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">10051 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">10054 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">10201 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">checkAlerts([TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics...)</span>
+                <span class="method-start">13432 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">checkAlerts([TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics...)</span>
+                <span class="method-start">13897 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">14066 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">14069 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">checkAlerts([TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics...)</span>
+                <span class="method-start">15329 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">15528 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

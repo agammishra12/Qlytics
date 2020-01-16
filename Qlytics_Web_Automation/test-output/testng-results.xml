@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+    </line>
+    <line>
+      <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+    </line>
+    <line>
+      <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+    </line>
+    <line>
+      <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+    </line>
+    <line>
+      <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+    </line>
+    <line>
+      <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+    </line>
+    <line>
+      <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+    </line>
+    <line>
+      <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[</table>]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[</table>]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[</table>]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[</table>]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[</table>]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[</table>]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[</table>]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[</table>]]>
+    </line>
+  </reporter-output>
+  <suite name="Qlytics" duration-ms="15539" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:29Z">
+    <groups>
+    </groups>
+    <test name="LoginUiTest2" duration-ms="6953" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:20Z">
+      <class name="qlytics.Regression.LoginUiTest">
+        <test-method status="PASS" signature="aaasetUp(org.testng.ITestContext)[pri:0, instance:qlytics.Regression.LoginUiTest@704921a5]" name="aaasetUp" is-config="true" duration-ms="40" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@11c20519]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaasetUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qlytics.Regression.LoginUiTest@704921a5]" name="setUp" is-config="true" duration-ms="137" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@704921a5]" name="LoginPageUi" duration-ms="6684" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageUi -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:qlytics.Regression.LoginUiTest@704921a5]" name="nameBefore" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:qlytics.Regression.LoginUiTest@704921a5]" name="checkAlerts" is-config="true" duration-ms="77" started-at="2020-01-16T09:15:20Z" finished-at="2020-01-16T09:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@704921a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlerts -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:qlytics.Regression.LoginUiTest@704921a5]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:20Z" finished-at="2020-01-16T09:15:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+            <line>
+              <![CDATA[</table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </test> <!-- LoginUiTest2 -->
+    <test name="LoginUiTest7" duration-ms="7000" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:20Z">
+      <class name="qlytics.Regression.LoginUiTest">
+        <test-method status="PASS" signature="aaasetUp(org.testng.ITestContext)[pri:0, instance:qlytics.Regression.LoginUiTest@7e9a5fbe]" name="aaasetUp" is-config="true" duration-ms="40" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@70beb599]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaasetUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qlytics.Regression.LoginUiTest@7e9a5fbe]" name="setUp" is-config="true" duration-ms="134" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:qlytics.Regression.LoginUiTest@7e9a5fbe]" name="nameBefore" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@7e9a5fbe]" name="LoginPageUi" duration-ms="6499" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageUi -->
+        <test-method status="PASS" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:qlytics.Regression.LoginUiTest@7e9a5fbe]" name="checkAlerts" is-config="true" duration-ms="309" started-at="2020-01-16T09:15:20Z" finished-at="2020-01-16T09:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlerts -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:qlytics.Regression.LoginUiTest@7e9a5fbe]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:20Z" finished-at="2020-01-16T09:15:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+            <line>
+              <![CDATA[</table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </test> <!-- LoginUiTest7 -->
+    <test name="LoginUiTest" duration-ms="10063" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:23Z">
+      <class name="qlytics.Regression.LoginUiTest">
+        <test-method status="PASS" signature="aaasetUp(org.testng.ITestContext)[pri:0, instance:qlytics.Regression.LoginUiTest@365185bd]" name="aaasetUp" is-config="true" duration-ms="40" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e41089d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaasetUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qlytics.Regression.LoginUiTest@365185bd]" name="setUp" is-config="true" duration-ms="141" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@365185bd]" name="LoginPageUi" duration-ms="9480" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageUi -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:qlytics.Regression.LoginUiTest@365185bd]" name="nameBefore" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:qlytics.Regression.LoginUiTest@365185bd]" name="checkAlerts" is-config="true" duration-ms="387" started-at="2020-01-16T09:15:23Z" finished-at="2020-01-16T09:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@365185bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlerts -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:qlytics.Regression.LoginUiTest@365185bd]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:23Z" finished-at="2020-01-16T09:15:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+            <line>
+              <![CDATA[</table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </test> <!-- LoginUiTest -->
+    <test name="LoginUiTest4" duration-ms="10065" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:23Z">
+      <class name="qlytics.Regression.LoginUiTest">
+        <test-method status="PASS" signature="aaasetUp(org.testng.ITestContext)[pri:0, instance:qlytics.Regression.LoginUiTest@7a36aefa]" name="aaasetUp" is-config="true" duration-ms="40" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@32a068d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaasetUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qlytics.Regression.LoginUiTest@7a36aefa]" name="setUp" is-config="true" duration-ms="148" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@7a36aefa]" name="LoginPageUi" duration-ms="9392" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageUi -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:qlytics.Regression.LoginUiTest@7a36aefa]" name="nameBefore" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:qlytics.Regression.LoginUiTest@7a36aefa]" name="checkAlerts" is-config="true" duration-ms="471" started-at="2020-01-16T09:15:23Z" finished-at="2020-01-16T09:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@7a36aefa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlerts -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:qlytics.Regression.LoginUiTest@7a36aefa]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:23Z" finished-at="2020-01-16T09:15:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+            <line>
+              <![CDATA[</table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </test> <!-- LoginUiTest4 -->
+    <test name="LoginUiTest6" duration-ms="10212" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:23Z">
+      <class name="qlytics.Regression.LoginUiTest">
+        <test-method status="PASS" signature="aaasetUp(org.testng.ITestContext)[pri:0, instance:qlytics.Regression.LoginUiTest@103f852]" name="aaasetUp" is-config="true" duration-ms="40" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33cb5951]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaasetUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qlytics.Regression.LoginUiTest@103f852]" name="setUp" is-config="true" duration-ms="145" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:qlytics.Regression.LoginUiTest@103f852]" name="nameBefore" is-config="true" duration-ms="1" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@103f852]" name="LoginPageUi" duration-ms="9573" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageUi -->
+        <test-method status="PASS" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:qlytics.Regression.LoginUiTest@103f852]" name="checkAlerts" is-config="true" duration-ms="441" started-at="2020-01-16T09:15:23Z" finished-at="2020-01-16T09:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@103f852] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlerts -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:qlytics.Regression.LoginUiTest@103f852]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:23Z" finished-at="2020-01-16T09:15:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+            <line>
+              <![CDATA[</table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </test> <!-- LoginUiTest6 -->
+    <test name="LoginUiTest3" duration-ms="14078" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:27Z">
+      <class name="qlytics.Regression.LoginUiTest">
+        <test-method status="PASS" signature="aaasetUp(org.testng.ITestContext)[pri:0, instance:qlytics.Regression.LoginUiTest@5c18298f]" name="aaasetUp" is-config="true" duration-ms="40" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@365c30cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaasetUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qlytics.Regression.LoginUiTest@5c18298f]" name="setUp" is-config="true" duration-ms="143" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:qlytics.Regression.LoginUiTest@5c18298f]" name="nameBefore" is-config="true" duration-ms="1" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@5c18298f]" name="LoginPageUi" duration-ms="13248" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageUi -->
+        <test-method status="PASS" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:qlytics.Regression.LoginUiTest@5c18298f]" name="checkAlerts" is-config="true" duration-ms="634" started-at="2020-01-16T09:15:27Z" finished-at="2020-01-16T09:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@5c18298f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlerts -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:qlytics.Regression.LoginUiTest@5c18298f]" name="quitBrowser" is-config="true" duration-ms="1" started-at="2020-01-16T09:15:27Z" finished-at="2020-01-16T09:15:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+            <line>
+              <![CDATA[</table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </test> <!-- LoginUiTest3 -->
+    <test name="LoginUiTest8" duration-ms="14080" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:27Z">
+      <class name="qlytics.Regression.LoginUiTest">
+        <test-method status="PASS" signature="aaasetUp(org.testng.ITestContext)[pri:0, instance:qlytics.Regression.LoginUiTest@134593bf]" name="aaasetUp" is-config="true" duration-ms="41" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@701fc37a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaasetUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qlytics.Regression.LoginUiTest@134593bf]" name="setUp" is-config="true" duration-ms="135" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@134593bf]" name="LoginPageUi" duration-ms="13719" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageUi -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:qlytics.Regression.LoginUiTest@134593bf]" name="nameBefore" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:qlytics.Regression.LoginUiTest@134593bf]" name="checkAlerts" is-config="true" duration-ms="172" started-at="2020-01-16T09:15:27Z" finished-at="2020-01-16T09:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@134593bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlerts -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:qlytics.Regression.LoginUiTest@134593bf]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:27Z" finished-at="2020-01-16T09:15:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+            <line>
+              <![CDATA[</table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </test> <!-- LoginUiTest8 -->
+    <test name="LoginUiTest5" duration-ms="15539" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:29Z">
+      <class name="qlytics.Regression.LoginUiTest">
+        <test-method status="PASS" signature="aaasetUp(org.testng.ITestContext)[pri:0, instance:qlytics.Regression.LoginUiTest@5123a213]" name="aaasetUp" is-config="true" duration-ms="40" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4148db48]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaasetUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qlytics.Regression.LoginUiTest@5123a213]" name="setUp" is-config="true" duration-ms="139" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<h1><Center><Font face="arial" color="Orange">Log Summary</font></Center><h1><table border="1" bgcolor="lightgray">]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:qlytics.Regression.LoginUiTest@5123a213]" name="nameBefore" is-config="true" duration-ms="1" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qlytics.Regression.LoginUiTest.LoginPageUi() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@5123a213]" name="LoginPageUi" duration-ms="15148" started-at="2020-01-16T09:15:13Z" finished-at="2020-01-16T09:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageUi -->
+        <test-method status="PASS" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:qlytics.Regression.LoginUiTest@5123a213]" name="checkAlerts" is-config="true" duration-ms="199" started-at="2020-01-16T09:15:28Z" finished-at="2020-01-16T09:15:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageUi status=SUCCESS method=LoginUiTest.LoginPageUi()[pri:0, instance:qlytics.Regression.LoginUiTest@5123a213] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlerts -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:qlytics.Regression.LoginUiTest@5123a213]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-01-16T09:15:29Z" finished-at="2020-01-16T09:15:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+            <line>
+              <![CDATA[</table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- qlytics.Regression.LoginUiTest -->
+    </test> <!-- LoginUiTest5 -->
+  </suite> <!-- Qlytics -->
+</testng-results>

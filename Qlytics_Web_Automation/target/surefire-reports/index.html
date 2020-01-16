@@ -1,0 +1,1747 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">61 methods, 1 failed,  60 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginFunctionalityTest" hash-for-method="registration">registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginUiTest" hash-for-method="LoginPageUi">LoginPageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpPageUiTest" hash-for-method="SignUpPageUi">SignUpPageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginFunctionalityTest" hash-for-method="loginFunctionalityTest">loginFunctionalityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFunctionalityTest" hash-for-method="signUpFunctionalityTest">signUpFunctionalityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon+smith@gmail.com, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon+smith@gmail.com, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(567, , NOT A VALID EMAIL, CAN&#039;T BE BLANK, , Yes)">testLoginValidation(567, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon@mailinator.co.jp, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon@mailinator.co.jp, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon@gmail@gmail.com, , NOT A VALID EMAIL, CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon@gmail@gmail.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(, , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, , Yes)">testLoginValidation(, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(asdf, Asdf@123, NOT A VALID EMAIL, , , Yes)">testLoginValidation(asdf, Asdf@123, NOT A VALID EMAIL, , , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon.smith@mailinator.com, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon.smith@mailinator.com, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(“jhon”@mailinator.com, , NOT A VALID EMAIL, CAN&#039;T BE BLANK, , Yes)">testLoginValidation(“jhon”@mailinator.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon@mailinator-one.com, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon@mailinator-one.com, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(imam@mailinator.com, agam@zxc, , , No active account found with the given credentials, Yes)">testLoginValidation(imam@mailinator.com, agam@zxc, , , No active account found with the given credentials, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon@mailinator.com, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon@mailinator.com, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(, Asdf@123, CAN&#039;T BE BLANK, , , Yes)">testLoginValidation(, Asdf@123, CAN'T BE BLANK, , , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(imam@mailinator.com, agam@123, , , No active account found with the given credentials, Yes)">testLoginValidation(imam@mailinator.com, agam@123, , , No active account found with the given credentials, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(imam@mailinator.com, Asdf@123, , , No active account found with the given credentials, Yes)">testLoginValidation(imam@mailinator.com, Asdf@123, , , No active account found with the given credentials, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon@.com, , NOT A VALID EMAIL, CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon@.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(Jhon@123.123.123.123, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(Jhon@123.123.123.123, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(asdf@gmail.com, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(asdf@gmail.com, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(imam@mailinator.com, Agam@12, , , No active account found with the given credentials, Yes)">testLoginValidation(imam@mailinator.com, Agam@12, , , No active account found with the given credentials, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon@mailinator.name, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon@mailinator.name, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(imam@mailinator.com, AGAM@123, , , No active account found with the given credentials, Yes)">testLoginValidation(imam@mailinator.com, AGAM@123, , , No active account found with the given credentials, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon-smith@mailinator.com, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon-smith@mailinator.com, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon@gmail, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon@gmail, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(5678@gmail.com, , , CAN&#039;T BE BLANK, , Yes)">testLoginValidation(5678@gmail.com, , , CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.LoginValidationTest" hash-for-method="testLoginValidation(jhon@gmail..com, , NOT A VALID EMAIL, CAN&#039;T BE BLANK, , Yes)">testLoginValidation(jhon@gmail..com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpAbsentValidationTest" hash-for-method="testSignUpAbsentValidation(asdf, Admin, , admin, Test, , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLA...)">testSignUpAbsentValidation(asdf, Admin, , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , CAN'T BE BLANK, CAN'T BE BLA...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpAbsentValidationTest" hash-for-method="testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PAS...)">testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , CAN'T BE BLANK, CAN'T BE BLANK, PAS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpAbsentValidationTest" hash-for-method="testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SHOULD C...)">testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD C...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpAbsentValidationTest" hash-for-method="testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, CAN&#039;T BE BLANK, CAN&#039;T BE BLAN...)">testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, CAN'T BE BLANK, CAN'T BE BLAN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpAbsentValidationTest" hash-for-method="testSignUpAbsentValidation(asdf, , , admin, Test, , , , CAN&#039;T BE BLANK, , , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, , , , , Yes)">testSignUpAbsentValidation(asdf, , , admin, Test, , , , CAN'T BE BLANK, , , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpAbsentValidationTest" hash-for-method="testSignUpAbsentValidation(, , , admin, Test, , , , , , , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, , , , , Yes)">testSignUpAbsentValidation(, , , admin, Test, , , , , , , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpAbsentValidationTest" hash-for-method="testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD S...)">testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpAbsentValidationTest" hash-for-method="testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SH...)">testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SH...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpAbsentValidationTest" hash-for-method="testSignUpAbsentValidation(, , , admin, , , , , , , , , , CAN&#039;T BE BLANK, , , , , , Yes)">testSignUpAbsentValidation(, , , admin, , , , , , , , , , CAN'T BE BLANK, , , , , , Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpAbsentValidationTest" hash-for-method="testSignUpAbsentValidation(asdf, Admin123!@#, , admin, Test, , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SHOULD CONTAIN AT L...)">testSignUpAbsentValidation(asdf, Admin123!@#, , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT L...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, , , , , , , , , , , , Enter a...)">testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, , , , , , , , , , , , Enter a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(, , , admin, , , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE,...)">testSignupFullValidation(, , , admin, , , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(pihu@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989909, tester, Tester, , , , , , , , ,...)">testSignupFullValidation(pihu@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989909, tester, Tester, , , , , , , , ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(567, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester8, Tester, , , , , , , , , , , , Enter a ...)">testSignupFullValidation(567, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester8, Tester, , , , , , , , , , , , Enter a ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(asdf, Admin123!@#, , admin, Test, , , , , , , , PASSWORD DOES NOT MATCH, , , CAN&#039;T BE BLANK, , CAN&#039;T...)">testSignupFullValidation(asdf, Admin123!@#, , admin, Test, , , , , , , , PASSWORD DOES NOT MATCH, , , CAN'T BE BLANK, , CAN'T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , , , , , , , , , , , CAN&#039;T BE BLANK,...)">testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , , , , , , , , , , , CAN'T BE BLANK,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(, , , admin, Test, , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERC...)">testSignupFullValidation(, , , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERC...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(jhon@gmail, Admin123!@#, Admin123!@#, admin, Test, 8989906, tester6, Tester, , , , , , , , , , , , E...)">testSignupFullValidation(jhon@gmail, Admin123!@#, Admin123!@#, admin, Test, 8989906, tester6, Tester, , , , , , , , , , , , E...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989900, tester, Tester, , , , , , , , , , , , En...)">testSignupFullValidation(@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989900, tester, Tester, , , , , , , , , , , , En...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(asdf@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester9, Tester, , , , , , , , ...)">testSignupFullValidation(asdf@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester9, Tester, , , , , , , , ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(jhon.mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester2, Tester, , , , , , , , ,...)">testSignupFullValidation(jhon.mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester2, Tester, , , , , , , , ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(asdf, , , admin, Test, , , , , CAN&#039;T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE L...)">testSignupFullValidation(asdf, , , admin, Test, , , , , CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE L...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , , , , , , , , CAN&#039;T BE BLANK, , CAN&#039;T BE BLANK, C...)">testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , , , , , , , , CAN'T BE BLANK, , CAN'T BE BLANK, C...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , , , , , , , , , NOT A VALID PHONE NUMBER, C...)">testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , , , , , , , , , NOT A VALID PHONE NUMBER, C...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(, , , , , , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE ...)">testSignupFullValidation(, , , , , , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(jhon&lt;smith@gmail.com&gt;, Admin123!@#, Admin123!@#, admin, Test, 8989901, tester2, Tester, , , , , , , ...)">testSignupFullValidation(jhon<smith@gmail.com>, Admin123!@#, Admin123!@#, admin, Test, 8989901, tester2, Tester, , , , , , , ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(!@#$%.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester, Tester, , , , , , , , , NOT A VALI...)">testSignupFullValidation(!@#$%.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester, Tester, , , , , , , , , NOT A VALI...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(jhon@gmail@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989903, tester3, Tester, , , , , , , ,...)">testSignupFullValidation(jhon@gmail@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989903, tester3, Tester, , , , , , , ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(jhon@.com, Admin123!@#, Admin123!@#, admin, Test, 8989907, tester7, Tester, , , , , , , , , , , , En...)">testSignupFullValidation(jhon@.com, Admin123!@#, Admin123!@#, admin, Test, 8989907, tester7, Tester, , , , , , , , , , , , En...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , , , , , , , , , , CAN&#039;T BE BLANK, CAN&#039;T BE...)">testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , , , , , , , , , , CAN'T BE BLANK, CAN'T BE...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(asdf, Admin, , admin, Test, , , , , , PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE ...)">testSignupFullValidation(asdf, Admin, , admin, Test, , , , , , PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="qlytics.Regression.SignUpFullValidationTest" hash-for-method="testSignupFullValidation(jhon@gmail..com, Admin123!@#, Admin123!@#, admin, Test, 8989905, tester5, Tester, , , , , , , , , , ...)">testSignupFullValidation(jhon@gmail..com, Admin123!@#, Admin123!@#, admin, Test, 8989905, tester5, Tester, , , , , , , , , , ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">qlytics.Regression.LoginFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration">
+                  </a> <!-- registration -->
+                  <span class="method-name">registration</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.SessionNotCreatedException: session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.20 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;Apples-MacBook.local&apos;, ip: &apos;fe80:0:0:0:148f:f367:5286:ee62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:171)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)
+	at qlytics.Lib.AppLibrary.getDriverInstance(AppLibrary.java:333)
+	at qlytics.Regression.LoginFunctionalityTest.registration(LoginFunctionalityTest.java:44)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 29 stack frames<br/> org.openqa.selenium.SessionNotCreatedException: session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.20 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;Apples-MacBook.local&apos;, ip: &apos;fe80:0:0:0:148f:f367:5286:ee62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:171)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)
+	at qlytics.Lib.AppLibrary.getDriverInstance(AppLibrary.java:333)
+	at qlytics.Regression.LoginFunctionalityTest.registration(LoginFunctionalityTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)<br>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)<br>org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)<br>org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)<br>org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)<br>java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)<br>java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)<br>java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)<br>java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)<br>java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)<br>java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br>java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)<br>java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br>java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)<br>org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)<br>org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)<br>org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)<br>org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)<br>org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)<br>org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:184)<br>org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:171)<br>org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)<br>qlytics.Lib.AppLibrary.getDriverInstance(AppLibrary.java:333)<br>qlytics.Regression.LoginFunctionalityTest.registration(LoginFunctionalityTest.java:44)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)<br>org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)<br>org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br>org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br>org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">qlytics.Regression.SignUpAbsentValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpAbsentValidation(asdf, Admin, , admin, Test, , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLA...)">
+                  </a> <!-- testSignUpAbsentValidation(asdf, Admin, , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , CAN'T BE BLANK, CAN'T BE BLA...) -->
+                  <span class="method-name">testSignUpAbsentValidation</span>
+                  <span class="parameters">(asdf, Admin, , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PAS...)">
+                  </a> <!-- testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , CAN'T BE BLANK, CAN'T BE BLANK, PAS...) -->
+                  <span class="method-name">testSignUpAbsentValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, CAN'T BE BLANK, PASSWORD DOES NOT MATCH, CAN'T BE BLANK, CAN'T BE BLANK, CAN'T BE BLANK, NOT A VALID PHONE NUMBER, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SHOULD C...)">
+                  </a> <!-- testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD C...) -->
+                  <span class="method-name">testSignUpAbsentValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, CAN'T BE BLANK, PASSWORD DOES NOT MATCH, CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, CAN&#039;T BE BLANK, CAN&#039;T BE BLAN...)">
+                  </a> <!-- testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, CAN'T BE BLANK, CAN'T BE BLAN...) -->
+                  <span class="method-name">testSignUpAbsentValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, CAN'T BE BLANK, PASSWORD DOES NOT MATCH, CAN'T BE BLANK, CAN'T BE BLANK, CAN'T BE BLANK, NOT A VALID PHONE NUMBER, CAN'T BE BLANK, CAN'T BE BLANK, Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpAbsentValidation(asdf, , , admin, Test, , , , CAN&#039;T BE BLANK, , , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, , , , , Yes)">
+                  </a> <!-- testSignUpAbsentValidation(asdf, , , admin, Test, , , , CAN'T BE BLANK, , , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes) -->
+                  <span class="method-name">testSignUpAbsentValidation</span>
+                  <span class="parameters">(asdf, , , admin, Test, , , , CAN'T BE BLANK, , , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpAbsentValidation(, , , admin, Test, , , , , , , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, , , , , Yes)">
+                  </a> <!-- testSignUpAbsentValidation(, , , admin, Test, , , , , , , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes) -->
+                  <span class="method-name">testSignUpAbsentValidation</span>
+                  <span class="parameters">(, , , admin, Test, , , , , , , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD S...)">
+                  </a> <!-- testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD S...) -->
+                  <span class="method-name">testSignUpAbsentValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, CAN'T BE BLANK, PASSWORD DOES NOT MATCH, CAN'T BE BLANK, CAN'T BE BLANK, CAN'T BE BLANK, NOT A VALID PHONE NUMBER, , , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SH...)">
+                  </a> <!-- testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SH...) -->
+                  <span class="method-name">testSignUpAbsentValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, CAN'T BE BLANK, PASSWORD DOES NOT MATCH, CAN'T BE BLANK, CAN'T BE BLANK, CAN'T BE BLANK, , , , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpAbsentValidation(, , , admin, , , , , , , , , , CAN&#039;T BE BLANK, , , , , , Yes)">
+                  </a> <!-- testSignUpAbsentValidation(, , , admin, , , , , , , , , , CAN'T BE BLANK, , , , , , Yes) -->
+                  <span class="method-name">testSignUpAbsentValidation</span>
+                  <span class="parameters">(, , , admin, , , , , , , , , , CAN'T BE BLANK, , , , , , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpAbsentValidation(asdf, Admin123!@#, , admin, Test, , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SHOULD CONTAIN AT L...)">
+                  </a> <!-- testSignUpAbsentValidation(asdf, Admin123!@#, , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT L...) -->
+                  <span class="method-name">testSignUpAbsentValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, , , CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">qlytics.Regression.SignUpFullValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, , , , , , , , , , , , Enter a...)">
+                  </a> <!-- testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, , , , , , , , , , , , Enter a...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, , , , , , , , , , , , Enter a valid email address., Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(, , , admin, , , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE,...)">
+                  </a> <!-- testSignupFullValidation(, , , admin, , , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE,...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(, , , admin, , , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, CAN'T BE BLANK, , , CAN'T BE BLANK, CAN'T BE BLANK, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(pihu@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989909, tester, Tester, , , , , , , , ,...)">
+                  </a> <!-- testSignupFullValidation(pihu@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989909, tester, Tester, , , , , , , , ,...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(pihu@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989909, tester, Tester, , , , , , , , , , , , Contact your organization manager, Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(567, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester8, Tester, , , , , , , , , , , , Enter a ...)">
+                  </a> <!-- testSignupFullValidation(567, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester8, Tester, , , , , , , , , , , , Enter a ...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(567, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester8, Tester, , , , , , , , , , , , Enter a valid email address., Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(asdf, Admin123!@#, , admin, Test, , , , , , , , PASSWORD DOES NOT MATCH, , , CAN&#039;T BE BLANK, , CAN&#039;T...)">
+                  </a> <!-- testSignupFullValidation(asdf, Admin123!@#, , admin, Test, , , , , , , , PASSWORD DOES NOT MATCH, , , CAN'T BE BLANK, , CAN'T...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, , admin, Test, , , , , , , , PASSWORD DOES NOT MATCH, , , CAN'T BE BLANK, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , , , , , , , , , , , CAN&#039;T BE BLANK,...)">
+                  </a> <!-- testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , , , , , , , , , , , CAN'T BE BLANK,...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , , , , , , , , , , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(, , , admin, Test, , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERC...)">
+                  </a> <!-- testSignupFullValidation(, , , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERC...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(, , , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, CAN'T BE BLANK, , , , CAN'T BE BLANK, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(jhon@gmail, Admin123!@#, Admin123!@#, admin, Test, 8989906, tester6, Tester, , , , , , , , , , , , E...)">
+                  </a> <!-- testSignupFullValidation(jhon@gmail, Admin123!@#, Admin123!@#, admin, Test, 8989906, tester6, Tester, , , , , , , , , , , , E...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(jhon@gmail, Admin123!@#, Admin123!@#, admin, Test, 8989906, tester6, Tester, , , , , , , , , , , , Enter a valid email address., Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989900, tester, Tester, , , , , , , , , , , , En...)">
+                  </a> <!-- testSignupFullValidation(@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989900, tester, Tester, , , , , , , , , , , , En...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989900, tester, Tester, , , , , , , , , , , , Enter a valid email address.
+ Contact your organization manager, Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(asdf@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester9, Tester, , , , , , , , ...)">
+                  </a> <!-- testSignupFullValidation(asdf@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester9, Tester, , , , , , , , ...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(asdf@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester9, Tester, , , , , , , , , , , , A user is already registered with this e-mail address., Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(jhon.mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester2, Tester, , , , , , , , ,...)">
+                  </a> <!-- testSignupFullValidation(jhon.mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester2, Tester, , , , , , , , ,...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(jhon.mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester2, Tester, , , , , , , , , NOT A VALID PHONE NUMBER, , , Enter a valid email address., Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(asdf, , , admin, Test, , , , , CAN&#039;T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE L...)">
+                  </a> <!-- testSignupFullValidation(asdf, , , admin, Test, , , , , CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE L...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(asdf, , , admin, Test, , , , , CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, CAN'T BE BLANK, , , , CAN'T BE BLANK, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , , , , , , , , CAN&#039;T BE BLANK, , CAN&#039;T BE BLANK, C...)">
+                  </a> <!-- testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , , , , , , , , CAN'T BE BLANK, , CAN'T BE BLANK, C...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , , , , , , , , CAN'T BE BLANK, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , , , , , , , , , NOT A VALID PHONE NUMBER, C...)">
+                  </a> <!-- testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , , , , , , , , , NOT A VALID PHONE NUMBER, C...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , , , , , , , , , NOT A VALID PHONE NUMBER, CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(, , , , , , , , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE ...)">
+                  </a> <!-- testSignupFullValidation(, , , , , , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE ...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(, , , , , , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, CAN'T BE BLANK, , CAN'T BE BLANK, CAN'T BE BLANK, CAN'T BE BLANK, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(jhon&lt;smith@gmail.com&gt;, Admin123!@#, Admin123!@#, admin, Test, 8989901, tester2, Tester, , , , , , , ...)">
+                  </a> <!-- testSignupFullValidation(jhon<smith@gmail.com>, Admin123!@#, Admin123!@#, admin, Test, 8989901, tester2, Tester, , , , , , , ...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(jhon<smith@gmail.com>, Admin123!@#, Admin123!@#, admin, Test, 8989901, tester2, Tester, , , , , , , , , , , , Enter a valid email address., Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(!@#$%.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester, Tester, , , , , , , , , NOT A VALI...)">
+                  </a> <!-- testSignupFullValidation(!@#$%.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester, Tester, , , , , , , , , NOT A VALI...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(!@#$%.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester, Tester, , , , , , , , , NOT A VALID PHONE NUMBER, , , Enter a valid email address.
+ Contact your organization manager, Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(jhon@gmail@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989903, tester3, Tester, , , , , , , ,...)">
+                  </a> <!-- testSignupFullValidation(jhon@gmail@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989903, tester3, Tester, , , , , , , ,...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(jhon@gmail@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989903, tester3, Tester, , , , , , , , , , , , Enter a valid email address., Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(jhon@.com, Admin123!@#, Admin123!@#, admin, Test, 8989907, tester7, Tester, , , , , , , , , , , , En...)">
+                  </a> <!-- testSignupFullValidation(jhon@.com, Admin123!@#, Admin123!@#, admin, Test, 8989907, tester7, Tester, , , , , , , , , , , , En...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(jhon@.com, Admin123!@#, Admin123!@#, admin, Test, 8989907, tester7, Tester, , , , , , , , , , , , Enter a valid email address., Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , , , , , , , , , , CAN&#039;T BE BLANK, CAN&#039;T BE...)">
+                  </a> <!-- testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , , , , , , , , , , CAN'T BE BLANK, CAN'T BE...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , , , , , , , , , , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(asdf, Admin, , admin, Test, , , , , , PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE ...)">
+                  </a> <!-- testSignupFullValidation(asdf, Admin, , admin, Test, , , , , , PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE ...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(asdf, Admin, , admin, Test, , , , , , PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE LETTER , ONE DIGIT AND AT LEAST 8-20 CHARECTER LONG, , PASSWORD DOES NOT MATCH, , , CAN'T BE BLANK, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupFullValidation(jhon@gmail..com, Admin123!@#, Admin123!@#, admin, Test, 8989905, tester5, Tester, , , , , , , , , , ...)">
+                  </a> <!-- testSignupFullValidation(jhon@gmail..com, Admin123!@#, Admin123!@#, admin, Test, 8989905, tester5, Tester, , , , , , , , , , ...) -->
+                  <span class="method-name">testSignupFullValidation</span>
+                  <span class="parameters">(jhon@gmail..com, Admin123!@#, Admin123!@#, admin, Test, 8989905, tester5, Tester, , , , , , , , , , , , Enter a valid email address., Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">qlytics.Regression.SignUpPageUiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpPageUi">
+                  </a> <!-- SignUpPageUi -->
+                  <span class="method-name">SignUpPageUi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">qlytics.Regression.LoginValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon+smith@gmail.com, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon+smith@gmail.com, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon+smith@gmail.com, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(567, , NOT A VALID EMAIL, CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(567, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(567, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon@mailinator.co.jp, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon@mailinator.co.jp, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon@mailinator.co.jp, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon@gmail@gmail.com, , NOT A VALID EMAIL, CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon@gmail@gmail.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon@gmail@gmail.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(, , CAN&#039;T BE BLANK, CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(asdf, Asdf@123, NOT A VALID EMAIL, , , Yes)">
+                  </a> <!-- testLoginValidation(asdf, Asdf@123, NOT A VALID EMAIL, , , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(asdf, Asdf@123, NOT A VALID EMAIL, , , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon.smith@mailinator.com, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon.smith@mailinator.com, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon.smith@mailinator.com, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(“jhon”@mailinator.com, , NOT A VALID EMAIL, CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(“jhon”@mailinator.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(“jhon”@mailinator.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon@mailinator-one.com, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon@mailinator-one.com, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon@mailinator-one.com, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(imam@mailinator.com, agam@zxc, , , No active account found with the given credentials, Yes)">
+                  </a> <!-- testLoginValidation(imam@mailinator.com, agam@zxc, , , No active account found with the given credentials, Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(imam@mailinator.com, agam@zxc, , , No active account found with the given credentials, Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon@mailinator.com, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon@mailinator.com, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon@mailinator.com, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(, Asdf@123, CAN&#039;T BE BLANK, , , Yes)">
+                  </a> <!-- testLoginValidation(, Asdf@123, CAN'T BE BLANK, , , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(, Asdf@123, CAN'T BE BLANK, , , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(imam@mailinator.com, agam@123, , , No active account found with the given credentials, Yes)">
+                  </a> <!-- testLoginValidation(imam@mailinator.com, agam@123, , , No active account found with the given credentials, Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(imam@mailinator.com, agam@123, , , No active account found with the given credentials, Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(imam@mailinator.com, Asdf@123, , , No active account found with the given credentials, Yes)">
+                  </a> <!-- testLoginValidation(imam@mailinator.com, Asdf@123, , , No active account found with the given credentials, Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(imam@mailinator.com, Asdf@123, , , No active account found with the given credentials, Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon@.com, , NOT A VALID EMAIL, CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon@.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon@.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(Jhon@123.123.123.123, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(Jhon@123.123.123.123, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(Jhon@123.123.123.123, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(asdf@gmail.com, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(asdf@gmail.com, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(asdf@gmail.com, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(imam@mailinator.com, Agam@12, , , No active account found with the given credentials, Yes)">
+                  </a> <!-- testLoginValidation(imam@mailinator.com, Agam@12, , , No active account found with the given credentials, Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(imam@mailinator.com, Agam@12, , , No active account found with the given credentials, Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon@mailinator.name, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon@mailinator.name, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon@mailinator.name, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(imam@mailinator.com, AGAM@123, , , No active account found with the given credentials, Yes)">
+                  </a> <!-- testLoginValidation(imam@mailinator.com, AGAM@123, , , No active account found with the given credentials, Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(imam@mailinator.com, AGAM@123, , , No active account found with the given credentials, Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon-smith@mailinator.com, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon-smith@mailinator.com, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon-smith@mailinator.com, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon@gmail, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon@gmail, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon@gmail, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(5678@gmail.com, , , CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(5678@gmail.com, , , CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(5678@gmail.com, , , CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginValidation(jhon@gmail..com, , NOT A VALID EMAIL, CAN&#039;T BE BLANK, , Yes)">
+                  </a> <!-- testLoginValidation(jhon@gmail..com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes) -->
+                  <span class="method-name">testLoginValidation</span>
+                  <span class="parameters">(jhon@gmail..com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">qlytics.Regression.LoginUiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUi">
+                  </a> <!-- LoginPageUi -->
+                  <span class="method-name">LoginPageUi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">qlytics.Regression.SignUpFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpFunctionalityTest">
+                  </a> <!-- signUpFunctionalityTest -->
+                  <span class="method-name">signUpFunctionalityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">qlytics.Regression.LoginFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFunctionalityTest">
+                  </a> <!-- loginFunctionalityTest -->
+                  <span class="method-name">loginFunctionalityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginUiTest&quot;/&gt;
+      &lt;class name=&quot;qlytics.Regression.SignUpFunctionalityTest&quot;/&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginFunctionalityTest&quot;/&gt;
+      &lt;class name=&quot;qlytics.Regression.LoginValidationTest&quot;/&gt;
+      &lt;class name=&quot;qlytics.Regression.SignUpPageUiTest&quot;/&gt;
+      &lt;class name=&quot;qlytics.Regression.SignUpFullValidationTest&quot;/&gt;
+      &lt;class name=&quot;qlytics.Regression.SignUpAbsentValidationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(61);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registration')
+data.setCell(0, 2, 'qlytics.Regression.LoginFunctionalityTest')
+data.setCell(0, 3, 1787);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSignUpAbsentValidation')
+data.setCell(1, 2, 'qlytics.Regression.SignUpAbsentValidationTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLoginValidation')
+data.setCell(2, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSignupFullValidation')
+data.setCell(3, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginValidation')
+data.setCell(4, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginFunctionalityTest')
+data.setCell(5, 2, 'qlytics.Regression.LoginFunctionalityTest')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSignupFullValidation')
+data.setCell(6, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LoginPageUi')
+data.setCell(7, 2, 'qlytics.Regression.LoginUiTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSignUpAbsentValidation')
+data.setCell(8, 2, 'qlytics.Regression.SignUpAbsentValidationTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSignUpAbsentValidation')
+data.setCell(9, 2, 'qlytics.Regression.SignUpAbsentValidationTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSignUpAbsentValidation')
+data.setCell(10, 2, 'qlytics.Regression.SignUpAbsentValidationTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLoginValidation')
+data.setCell(11, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLoginValidation')
+data.setCell(12, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSignupFullValidation')
+data.setCell(13, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testLoginValidation')
+data.setCell(14, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSignupFullValidation')
+data.setCell(15, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testLoginValidation')
+data.setCell(16, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSignupFullValidation')
+data.setCell(17, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testLoginValidation')
+data.setCell(18, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSignupFullValidation')
+data.setCell(19, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testLoginValidation')
+data.setCell(20, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testLoginValidation')
+data.setCell(21, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testSignUpAbsentValidation')
+data.setCell(22, 2, 'qlytics.Regression.SignUpAbsentValidationTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testLoginValidation')
+data.setCell(23, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testSignupFullValidation')
+data.setCell(24, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testSignupFullValidation')
+data.setCell(25, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testSignupFullValidation')
+data.setCell(26, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testSignupFullValidation')
+data.setCell(27, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'signUpFunctionalityTest')
+data.setCell(28, 2, 'qlytics.Regression.SignUpFunctionalityTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testSignupFullValidation')
+data.setCell(29, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testLoginValidation')
+data.setCell(30, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testLoginValidation')
+data.setCell(31, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testLoginValidation')
+data.setCell(32, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testSignUpAbsentValidation')
+data.setCell(33, 2, 'qlytics.Regression.SignUpAbsentValidationTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testLoginValidation')
+data.setCell(34, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testLoginValidation')
+data.setCell(35, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testSignupFullValidation')
+data.setCell(36, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testSignupFullValidation')
+data.setCell(37, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testSignupFullValidation')
+data.setCell(38, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testLoginValidation')
+data.setCell(39, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testLoginValidation')
+data.setCell(40, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testSignUpAbsentValidation')
+data.setCell(41, 2, 'qlytics.Regression.SignUpAbsentValidationTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testSignupFullValidation')
+data.setCell(42, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testSignupFullValidation')
+data.setCell(43, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testSignupFullValidation')
+data.setCell(44, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testLoginValidation')
+data.setCell(45, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testSignupFullValidation')
+data.setCell(46, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testSignUpAbsentValidation')
+data.setCell(47, 2, 'qlytics.Regression.SignUpAbsentValidationTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testLoginValidation')
+data.setCell(48, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testSignupFullValidation')
+data.setCell(49, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testLoginValidation')
+data.setCell(50, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testLoginValidation')
+data.setCell(51, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testSignUpAbsentValidation')
+data.setCell(52, 2, 'qlytics.Regression.SignUpAbsentValidationTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testSignupFullValidation')
+data.setCell(53, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testSignupFullValidation')
+data.setCell(54, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testLoginValidation')
+data.setCell(55, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testSignUpAbsentValidation')
+data.setCell(56, 2, 'qlytics.Regression.SignUpAbsentValidationTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'SignUpPageUi')
+data.setCell(57, 2, 'qlytics.Regression.SignUpPageUiTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testLoginValidation')
+data.setCell(58, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testSignupFullValidation')
+data.setCell(59, 2, 'qlytics.Regression.SignUpFullValidationTest')
+data.setCell(59, 3, 0);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testLoginValidation')
+data.setCell(60, 2, 'qlytics.Regression.LoginValidationTest')
+data.setCell(60, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">qlytics.Regression.LoginFunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">aaasetUp(org.testng.TestRunner@481ba2cf)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">nameBefore(public void qlytics.Regression.LoginFunctionalityTest.registration() throws java.lang.Exception)</span>
+                <span class="method-start">220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registration</span>
+                <span class="method-start">221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkAlerts([TestResult name=registration status=FAILURE method=LoginFunctionalityTest.registration()[pri:0, ins...)</span>
+                <span class="method-start">2012 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qlytics.Regression.SignUpFunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">2018 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">signUpFunctionalityTest</span>
+                <span class="method-start">2018 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qlytics.Regression.LoginUiTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUi</span>
+                <span class="method-start">2020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">2020 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qlytics.Regression.SignUpAbsentValidationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSignUpAbsentValidation(, , , admin, , , , , , , , , , CAN'T BE BLANK, , , , , , Yes)</span>
+                <span class="method-start">2139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpAbsentValidation(, , , admin, Test, , , , , , , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes)</span>
+                <span class="method-start">2140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpAbsentValidation(asdf, , , admin, Test, , , , CAN'T BE BLANK, , , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , , Yes)</span>
+                <span class="method-start">2140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpAbsentValidation(asdf, Admin, , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, , , , CAN'T BE BLANK, CAN'T BE BLA...)</span>
+                <span class="method-start">2141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpAbsentValidation(asdf, Admin123!@#, , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT L...)</span>
+                <span class="method-start">2141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD C...)</span>
+                <span class="method-start">2142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SH...)</span>
+                <span class="method-start">2142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD S...)</span>
+                <span class="method-start">2143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , CAN'T BE BLANK, CAN'T BE BLANK, PAS...)</span>
+                <span class="method-start">2143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpAbsentValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, CAN'T BE BLANK, CAN'T BE BLAN...)</span>
+                <span class="method-start">2143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">2144 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qlytics.Regression.SignUpPageUiTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SignUpPageUi</span>
+                <span class="method-start">2145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">2145 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qlytics.Regression.LoginValidationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(, , CAN'T BE BLANK, CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2192 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(, Asdf@123, CAN'T BE BLANK, , , Yes)</span>
+                <span class="method-start">2192 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(asdf@gmail.com, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(imam@mailinator.com, Asdf@123, , , No active account found with the given credentials, Yes)</span>
+                <span class="method-start">2193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(asdf, Asdf@123, NOT A VALID EMAIL, , , Yes)</span>
+                <span class="method-start">2193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(imam@mailinator.com, agam@123, , , No active account found with the given credentials, Yes)</span>
+                <span class="method-start">2196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(imam@mailinator.com, agam@zxc, , , No active account found with the given credentials, Yes)</span>
+                <span class="method-start">2196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(imam@mailinator.com, AGAM@123, , , No active account found with the given credentials, Yes)</span>
+                <span class="method-start">2196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(imam@mailinator.com, Agam@12, , , No active account found with the given credentials, Yes)</span>
+                <span class="method-start">2197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon@gmail@gmail.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(5678@gmail.com, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon@gmail..com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon@gmail, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon@.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(567, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon+smith@gmail.com, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon@mailinator.com, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon.smith@mailinator.com, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(Jhon@123.123.123.123, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(“jhon”@mailinator.com, , NOT A VALID EMAIL, CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon@mailinator-one.com, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon@mailinator.name, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon@mailinator.co.jp, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">2203 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">testLoginValidation(jhon-smith@mailinator.com, , , CAN'T BE BLANK, , Yes)</span>
+                <span class="method-start">2203 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qlytics.Regression.SignUpFullValidationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(, , , , , , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE ...)</span>
+                <span class="method-start">2249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(, , , admin, , , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE,...)</span>
+                <span class="method-start">2249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(, , , admin, Test, , , , CAN'T BE BLANK, CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERC...)</span>
+                <span class="method-start">2250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(asdf, , , admin, Test, , , , , CAN'T BE BLANK, PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE L...)</span>
+                <span class="method-start">2250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(asdf, Admin, , admin, Test, , , , , , PASSWORD SHOULD CONTAIN AT LEAST ONE UPPERCASE, ONE LOWERCASE ...)</span>
+                <span class="method-start">2251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(asdf, Admin123!@#, , admin, Test, , , , , , , , PASSWORD DOES NOT MATCH, , , CAN'T BE BLANK, , CAN'T...)</span>
+                <span class="method-start">2252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, , , , , , , , , , , CAN'T BE BLANK, , CAN'T BE BLANK, C...)</span>
+                <span class="method-start">2252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 898989, , , , , , , , , , , NOT A VALID PHONE NUMBER, C...)</span>
+                <span class="method-start">2252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, , , , , , , , , , , , CAN'T BE BLANK, CAN'T BE...)</span>
+                <span class="method-start">2253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989898, company, , , , , , , , , , , , CAN'T BE BLANK,...)</span>
+                <span class="method-start">2253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(asdf, Admin123!@#, Admin123!@#, admin, Test, 8989899, company, Tester, , , , , , , , , , , , Enter a...)</span>
+                <span class="method-start">2254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(!@#$%.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester, Tester, , , , , , , , , NOT A VALI...)</span>
+                <span class="method-start">2254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989900, tester, Tester, , , , , , , , , , , , En...)</span>
+                <span class="method-start">2255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(jhon<smith@gmail.com>, Admin123!@#, Admin123!@#, admin, Test, 8989901, tester2, Tester, , , , , , , ...)</span>
+                <span class="method-start">2255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(jhon.mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 898989, tester2, Tester, , , , , , , , ,...)</span>
+                <span class="method-start">2256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(jhon@gmail@gmail.com, Admin123!@#, Admin123!@#, admin, Test, 8989903, tester3, Tester, , , , , , , ,...)</span>
+                <span class="method-start">2256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(jhon@gmail..com, Admin123!@#, Admin123!@#, admin, Test, 8989905, tester5, Tester, , , , , , , , , , ...)</span>
+                <span class="method-start">2257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(jhon@gmail, Admin123!@#, Admin123!@#, admin, Test, 8989906, tester6, Tester, , , , , , , , , , , , E...)</span>
+                <span class="method-start">2257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(jhon@.com, Admin123!@#, Admin123!@#, admin, Test, 8989907, tester7, Tester, , , , , , , , , , , , En...)</span>
+                <span class="method-start">2258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(567, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester8, Tester, , , , , , , , , , , , Enter a ...)</span>
+                <span class="method-start">2258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">2259 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(asdf@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989908, tester9, Tester, , , , , , , , ...)</span>
+                <span class="method-start">2259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupFullValidation(pihu@mailinator.com, Admin123!@#, Admin123!@#, admin, Test, 8989909, tester, Tester, , , , , , , , ,...)</span>
+                <span class="method-start">2259 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qlytics.Regression.LoginFunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">2262 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
